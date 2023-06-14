@@ -1,0 +1,91 @@
+
+    main {
+        display: block;
+        text-align: center;
+    }
+
+    main img {
+        width: 70px;
+        height: 100px;
+        margin: 30px;
+    }
+    .lista {
+        margin: auto;
+        min-width: 600px;
+        max-height: 400px;
+        overflow: auto;
+    }
+
+        /* Estilizando a barra de rolagem */
+    .lista::-webkit-scrollbar {
+        width: 5px; /* Largura da barra de rolagem */
+    }
+
+    .lista::-webkit-scrollbar-thumb {
+        display: block;
+        background-color: rgba(13, 32, 85, 0.253); /* Cor do polegar da barra de rolagem */
+    }
+
+    .lista::-webkit-scrollbar-track {
+        display: none;
+    }
+
+
+   .list {
+    margin: auto;
+    padding:  20px 30px;
+    border-collapse: collapse;
+    width: 75%;
+   }
+
+   .list tr {
+    border-bottom: 2px solid rgba(61, 141, 245, 0.452);
+   }
+
+   .list th,td {
+    text-align: justify;
+   }
+
+   .list tr:nth-child(odd) {
+    background-color: rgba(7, 142, 253, 0.123);
+    }
+
+    .list tr:nth-child(even) {
+        background-color: rgba(237, 247, 255, 0.301);
+    }
+
+   .list th{
+    background-color: rgba(17, 35, 83, 0.212);
+    border: 2px solid rgba(30, 41, 109, 0.459);
+    padding: 7px;
+   }
+
+   .list td{
+    padding: 5px;
+   }
+
+   h1 {
+    margin: 30px;
+    font-weight: bold;
+   }
+
+   div.formulario table {
+    border: 2px solid rgb(0, 103, 172);
+    background-color: rgba(210, 235, 255, 0.589);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+   }
+
+  div.formulario table input,select {
+    background-color: rgba(19, 127, 189, 0.226);
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+   }
+
+
+  div.formulario table tr td {
+    padding: 5px;
+   }

@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #06274E;
+    font-family: 'Roboto Condensed';
+}
+
+
+/* Cabeçaho */
+aside{
+    background-color: rgb(177, 212, 236);
+    display: flex;
+    align-items: center;
+    font-family: 'Pangolin';
+
+}
+
+aside img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+aside h1 {
+    margin-right: 10%;
+    text-align: center;
+    flex: 1;
+    font-size: 4em;
+}
+
+/* Menu */
+
+nav {
+    background-color: #002963;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu {
+    background-color: #3161e7;
+    color: white;
+    display: none;
+    position: absolute;
+    padding: 30px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    border-radius: 0px 0px 10px 0px;
+
+}
+
+#menu li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#menu li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #06274E;
+    transition-duration: 0.15s;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/* Main */
+
+main {
+    background-color: white;
+    padding: 20px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+button {
+    background-color: #1373E8;
+    color: white;
+    padding: 12px;
+    margin: 0px 40px;
+    text-align: center;
+    width: 75%;
+    max-width: 120px;
+    border-radius: 6px;
+    border: 2px solid #06274E;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #014eac9a;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer div {
+    padding: 20px 5px;
+    font-size: 0.6em;
+    margin-right: 10%;
+    flex: 1;
+}
